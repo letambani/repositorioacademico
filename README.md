@@ -24,8 +24,7 @@ O repositório está organizado por fases do curso e disciplinas, permitindo uma
 
 Contribuições são bem-vindas! Se você encontrar algum software que deveria ser adicionado ao repositório ou se houver alguma atualização necessária, por favor, abra um **pull request**.
 
-**Administrado por:**  
-[Faculdade Municipal de Palhoça](http://www.fmp.edu.br)
+**Administrado por:**  [Faculdade Municipal de Palhoça](http://www.fmp.edu.br)
 
 **Desenvolvido por:** 
 [Letícia Tambani](https://www.linkedin.com/in/let%C3%ADcia-tambani-51a526227/)
