@@ -1,5 +1,7 @@
 # 📚 Repositório Acadêmico - Faculdade Municipal de Palhoça
 
+![Site](https://github.com/letambani/repositorioacademico/blob/main/images/courses/site.png)
+
 ## 🌟 Visão Geral
 
 Este Repositório Acadêmico foi desenvolvido **exclusivamente** para a comunidade acadêmica da **Faculdade Municipal de Palhoça**, com o objetivo de centralizar e disponibilizar softwares ou arquivos essenciais para estudantes e professores. 
