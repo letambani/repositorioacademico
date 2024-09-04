@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>FMP - Repositório Acedêmico</title>
+    <link rel="icon" href="images/logo.png" type="logo-fmp">
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body id="top">
+    <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"></a>
+          <div class="d-lg-none ms-auto me-4">
+            <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-5 me-lg-auto">
+              <li class="nav-item">
+                <img src="images/logo_fmp.png">
+                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                <a class="nav-link click-scroll" href="#section_2">Downloads</a>
+                <a class="nav-link click-scroll" href="#section_3">Como utilizar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- INÍCIO -->
+      <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-12 mx-auto">
+              </br>
+              <h1 class="text-white text-center">Repositório </br> Acadêmico </h1>
+              <h5 class="text-center">Uma experiência de aprendizado mais flexível e eficiente.</h5>
+              </br>
+              <form id="searchForm" class="custom-form mt-4 pt-2 mb-lg-0 mb-5">
+                <div class="input-group input-group-lg">
+                  <span class="input-group-text bi-search" id="basic-addon1"></span>
+                  <select name="course" id="course" class="form-control">
+                    <option value="" disabled selected>Selecione o curso</option>
+                    <option value="administracao">Administração</option>
+                    <option value="ads">ADS</option>
+                    <option value="pedagogia">Pedagogia</option>
+                    <option value="processos">Processos Gerenciais</option>
+                    <option value="pos">Pós Graduação</option>
+                  </select>
+                  <select name="phase" id="phase" class="form-control">
+                    <option value="" disabled selected>Selecione a fase</option>
+                  </select>
+                  <button type="submit" class="form-control">Pesquisar</button>
+                </div>
+              </form>
+              <p class="text-white text-center">Consulte seu curso e baixe ferramentas para seus projetos acadêmicos.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CURSOS -->
+      <section class="explore-section section-padding" id="section_2">
+         <div class="container">
+             <div class="col-12 text-center">
+                 <h2 class="mb-4">Navegar por cursos</h2>
+             </div>
+         </div>
+         <div class="container-fluid">
+             <div class="row">
+                 <ul class="nav nav-tabs" id="myTab" role="tablist">
+                     <li class="nav-item" role="presentation">
+                         <a class="nav-link active" id="administracao-tab" data-bs-toggle="tab" href="#administracao-tab-pane" role="tab" aria-controls="administracao-tab-pane" aria-selected="true">Administração</a>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                         <a class="nav-link" id="ads-tab" data-bs-toggle="tab" href="#ads-tab-pane" role="tab" aria-controls="ads-tab-pane" aria-selected="false">ADS</a>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                         <a class="nav-link" id="pedagogia-tab" data-bs-toggle="tab" href="#pedagogia-tab-pane" role="tab" aria-controls="pedagogia-tab-pane" aria-selected="false">Pedagogia</a>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                         <a class="nav-link" id="processos-tab" data-bs-toggle="tab" href="#processos-tab-pane" role="tab" aria-controls="processos-tab-pane" aria-selected="false">Processos Gerenciais</a>
+                     </li>
+                     <li class="nav-item" role="presentation">
+                         <a class="nav-link" id="pos-tab" data-bs-toggle="tab" href="#pos-tab-pane" role="tab" aria-controls="pos-tab-pane" aria-selected="false">Pós-Graduação</a>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="tab-content" id="myTabContent">
+                     <!-- CURSOS: ADMINISTRACAO -->
+                     <div class="tab-pane fade show active" id="administracao-tab-pane" role="tabpanel" aria-labelledby="administracao-tab" tabindex="0">
+                         <div class="row">
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software A</h5>
+                                                 <img src="images/courses/logo_software1.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software A</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor A</p>
+                                             </div>
+                                             <span class="badge bg-1fase rounded-pill ms-auto">1ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software B</h5>
+                                                 <img src="images/courses/logo_software2.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software B</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor B</p>
+                                             </div>
+                                             <span class="badge bg-2fase rounded-pill ms-auto">2ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software C</h5>
+                                                 <img src="images/courses/logo_software3.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software C</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor C</p>
+                                             </div>
+                                             <span class="badge bg-5fase rounded-pill ms-auto">5ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- CURSOS: ADS -->
+                     <div class="tab-pane fade" id="ads-tab-pane" role="tabpanel" aria-labelledby="ads-tab" tabindex="0">
+                         <div class="row">
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">VsCode</h5>
+                                                 <img src="images/courses/logo_vscode.png" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Um editor de código desenvolvido pela Microsoft para criação de softwares Desktop com HTML, CSS e JavaScript.</p>
+                                                 <br>
+                                                 <p class="mb-0">Finalidade: Programação web</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Leandro Pickler</p>
+                                             </div>
+                                             <span class="badge bg-1fase rounded-pill ms-auto">1ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://code.visualstudio.com/download" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Android Studio</h5>
+                                                 <img src="images/courses/logo_androidstudio.png" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Ambiente de Desenvolvimento Integrado (IDE) que oferece ferramentas para criar apps em todos os dispositivos móveis.</p>
+                                                 <br>
+                                                 <p class="mb-0">Finalidade: Criação de aplicativos</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Leandro Pickler</p>
+                                             </div>
+                                             <span class="badge bg-3fase rounded-pill ms-auto">3ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Wire Shark</h5>
+                                                 <img src="images/courses/logo_wireshark.png" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Analisador de protocolos que captura pacotes de dados em redes para análise e resolução de problemas.</p>
+                                                 <br>
+                                                 <p class="mb-0">Finalidade: Gerenciamento de dados</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Leandro Pickler</p>
+                                             </div>
+                                             <span class="badge bg-4fase rounded-pill ms-auto">4ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://www.wireshark.org/download.html" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- CURSOS: PEDAGOGIA -->
+                     <div class="tab-pane fade" id="pedagogia-tab-pane" role="tabpanel" aria-labelledby="pedagogia-tab" tabindex="0">
+                         <div class="row">
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software D</h5>
+                                                 <img src="images/courses/logo_software4.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software D</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor D</p>
+                                             </div>
+                                             <span class="badge bg-1fase rounded-pill ms-auto">1ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software E</h5>
+                                                 <img src="images/courses/logo_software5.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software E</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor E</p>
+                                             </div>
+                                             <span class="badge bg-3fase rounded-pill ms-auto">3ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software F</h5>
+                                                 <img src="images/courses/logo_software6.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software F</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor F</p>
+                                             </div>
+                                             <span class="badge bg-5fase rounded-pill ms-auto">5ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- CURSOS: PROCESSOS GERENCIAIS -->
+                     <div class="tab-pane fade" id="processos-tab-pane" role="tabpanel" aria-labelledby="processos-tab" tabindex="0">
+                         <div class="row">
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software G</h5>
+                                                 <img src="images/courses/logo_software7.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software G</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor G</p>
+                                             </div>
+                                             <span class="badge bg-1fase rounded-pill ms-auto">1ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software H</h5>
+                                                 <img src="images/courses/logo_software8.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software H</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor H</p>
+                                             </div>
+                                             <span class="badge bg-3fase rounded-pill ms-auto">3ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software I</h5>
+                                                 <img src="images/courses/logo_software9.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software I</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor I</p>
+                                             </div>
+                                             <span class="badge bg-5fase rounded-pill ms-auto">5ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                     <!-- CURSOS: POS-GRADUACAO -->
+                     <div class="tab-pane fade" id="pos-tab-pane" role="tabpanel" aria-labelledby="pos-tab" tabindex="0">
+                         <div class="row">
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software J</h5>
+                                                 <img src="images/courses/logo_software10.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software J</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor J</p>
+                                             </div>
+                                             <span class="badge bg-1fase rounded-pill ms-auto">1ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software K</h5>
+                                                 <img src="images/courses/logo_software11.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software K</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor K</p>
+                                             </div>
+                                             <span class="badge bg-3fase rounded-pill ms-auto">3ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                             <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                 <div class="custom-block bg-white shadow-lg">
+                                     <a href="topics-detail.html">
+                                         <div class="d-flex">
+                                             <div>
+                                                 <h5 class="mb-2">Software L</h5>
+                                                 <img src="images/courses/logo_software12.jpg" class="custom-block-image img-fluid" alt="">
+                                                 <p class="mb-0">Descrição do Software L</p>
+                                                 <br>
+                                                 <p class="mb-0">Professor: Professor L</p>
+                                             </div>
+                                             <span class="badge bg-5fase rounded-pill ms-auto">5ª FASE</span>
+                                         </div>
+                                     </a>
+                                     <a href="https://developer.android.com/studio?hl=pt-br#get-android-studio" class="btn custom-btn mt-2 mt-lg-3">Download</a>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </section>
+      <!-- COMO UTILIZAR -->
+      <div class="tab-pane fade" id="education-tab-pane" role="tabpanel" aria-labelledby="education-tab" tabindex="0">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-3">
+            <div class="custom-block bg-white shadow-lg">
+              <a href="topics-detail.html">
+                <div class="d-flex">
+                  <img src="images/topics/undraw_Educator_re_ju47.png" class="custom-block-image img-fluid" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <section class="timeline-section section-padding" id="section_3">
+        <div class="section-overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="text-white mb-4"> Como utilizar? </h1>
+            </div>
+            <div class="col-lg-10 col-12 mx-auto">
+              <div class="timeline-container">
+                <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                  <div class="list-progress">
+                    <div class="inner"></div>
+                  </div>
+                  <li>
+                    <h4 class="text-white mb-3">Pesquise seu curso</h4>
+                    <p class="text-white">Encontre o curso que você está estudando.</p>
+                    <div class="icon-holder">
+                      <i class="bi-search"></i>
+                    </div>
+                  </li>
+                  <li>
+                    <h4 class="text-white mb-3">Reconheça os arquivos ou softwares necessários para cada fase</h4>
+                    <p class="text-white">Descubra quais arquivos ou softwares são recomendados para cada etapa do seu aprendizado.</p>
+                    <div class="icon-holder">
+                      <i class="bi-bookmark"></i>
+                    </div>
+                  </li>
+                  <li>
+                    <h4 class="text-white mb-3">Clique em download, baixe e aproveite!</h4>
+                    <p class="text-white">Faça o download dos arquivos ou softwares necessários e aproveite seus estudos.</p>
+                    <div class="icon-holder">
+                      <i class="bi-book"></i>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="faq-section section-padding" id="section_4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <h2 class="mb-4">Dúvidas Frequentes</h2>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-5 col-12">
+              <img src="images/faq.png" class="img-fluid" alt="FAQs">
+            </div>
+            <div class="col-lg-6 col-12 m-auto">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"> Como faço para encontrar o arquivo ou software específico do meu curso e fase? </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body"> Para encontrar o arquivo ou software específico do seu curso e fase, use o formulário de pesquisa disponível na seção "Repositório Acadêmico". Selecione o curso desejado no menu suspenso e, em seguida, escolha a fase correspondente. Clique em "Pesquisar" e o sistema exibirá apenas os arquivo ou softwares que correspondem aos critérios selecionados. </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Como posso baixar o arquivo ou software listado no repositório? </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body"> Para baixar o arquivo ou software listado, basta clicar no botão "Downloads" disponível ao lado da descrição do arquivo ou software desejado. Você será redirecionado para a página oficial de download do arquivo ou software, onde poderá seguir as instruções para fazer o download e a instalação. </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> O que devo fazer se encontrar um link quebrado ou um arquivo ou software desatualizado? </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body"> Se você encontrar um link quebrado ou perceber que um arquivo ou software está desatualizado, entre em contato com a secretaria acadêmica. Isso nos ajudará a manter o repositório atualizado e funcional para todos os usuários. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="site-footer section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-12 mb-4 pb-2">
+              <a class="navbar-brand mb-2" href="index.html">
+                <img src="images/logo_fmp.png">
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <h6 class="site-footer-title mb-3">Recursos</h6>
+              <ul class="site-footer-links">
+                <li class="site-footer-link-item">
+                  <a href="section_1" class="site-footer-link">Home</a>
+                </li>
+                <li class="site-footer-link-item">
+                  <a href="section_2" class="site-footer-link">Downloads</a>
+                </li>
+                <li class="site-footer-link-item">
+                  <a href="section_3" class="site-footer-link">Como utilizar</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6 mb-4 mb-lg-0">
+              <h6 class="site-footer-title mb-3">Mais informações</h6>
+              <p class="text-white d-flex mb-1">
+                <a href="tel: +554832200376" class="site-footer-link"> (48) 3220-0376 </a>
+              </p>
+              <p class="text-white d-flex">
+                <a href="mailto:contato@fmpsc.edu.br" class="site-footer-link"> contato@fmpsc.edu.br </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-12 mt-4 mt-lg-0 ms-auto">
+              <br>
+              <br>Administrado por: <a rel="nofollow" href="http://fmpsc.edu.br/" target="_blank">FMP</a> Desenvolvido por: <a href="https://www.linkedin.com/in/let%C3%ADcia-tambani/">Letícia Tambani</a>
+              </p>
+            </div>
+            <p class="copyright-text mt-lg-5 mt-4">Copyright © 2024, FMP. Todos os direitos reservados.
+          </div>
+        </div>
+      </footer>
+      <!-- ARQUIVOS JAVA -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/click-scroll.js"></script>
+      <script src="js/custom.js"></script>
+      <script src="js/scripts.js"></script>
+  </body>
+</html>
